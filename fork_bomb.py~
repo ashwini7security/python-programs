@@ -1,0 +1,4 @@
+import os
+i = 3
+while i < 3:
+  os.fork()

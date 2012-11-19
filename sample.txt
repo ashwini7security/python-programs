@@ -1,0 +1,4 @@
+this is my first progeram of handling in python
+woops its works
+its pretty easy
+hogya ji !

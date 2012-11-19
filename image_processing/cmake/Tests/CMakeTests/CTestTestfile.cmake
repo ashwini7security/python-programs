@@ -1,0 +1,35 @@
+# CMake generated Testfile for 
+# Source directory: /home/ashwini/Documents/driving_python/image_processing/cmake/Tests/CMakeTests
+# Build directory: /home/ashwini/Documents/driving_python/image_processing/cmake/Tests/CMakeTests
+# 
+# This file includes the relevent testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+ADD_TEST(CMake.List "/home/ashwini/Documents/driving_python/image_processing/cmake/bin/cmake" "-P" "/home/ashwini/Documents/driving_python/image_processing/cmake/Tests/CMakeTests/ListTest.cmake")
+ADD_TEST(CMake.VariableWatch "/home/ashwini/Documents/driving_python/image_processing/cmake/bin/cmake" "-P" "/home/ashwini/Documents/driving_python/image_processing/cmake/Tests/CMakeTests/VariableWatchTest.cmake")
+ADD_TEST(CMake.Include "/home/ashwini/Documents/driving_python/image_processing/cmake/bin/cmake" "-P" "/home/ashwini/Documents/driving_python/image_processing/cmake/Tests/CMakeTests/IncludeTest.cmake")
+ADD_TEST(CMake.FindBase "/home/ashwini/Documents/driving_python/image_processing/cmake/bin/cmake" "-P" "/home/ashwini/Documents/driving_python/image_processing/cmake/Tests/CMakeTests/FindBaseTest.cmake")
+ADD_TEST(CMake.Toolchain "/home/ashwini/Documents/driving_python/image_processing/cmake/bin/cmake" "-P" "/home/ashwini/Documents/driving_python/image_processing/cmake/Tests/CMakeTests/ToolchainTest.cmake")
+ADD_TEST(CMake.GetFilenameComponentRealpath "/home/ashwini/Documents/driving_python/image_processing/cmake/bin/cmake" "-P" "/home/ashwini/Documents/driving_python/image_processing/cmake/Tests/CMakeTests/GetFilenameComponentRealpathTest.cmake")
+ADD_TEST(CMake.Version "/home/ashwini/Documents/driving_python/image_processing/cmake/bin/cmake" "-P" "/home/ashwini/Documents/driving_python/image_processing/cmake/Tests/CMakeTests/VersionTest.cmake")
+ADD_TEST(CMake.Message "/home/ashwini/Documents/driving_python/image_processing/cmake/bin/cmake" "-P" "/home/ashwini/Documents/driving_python/image_processing/cmake/Tests/CMakeTests/MessageTest.cmake")
+ADD_TEST(CMake.File "/home/ashwini/Documents/driving_python/image_processing/cmake/bin/cmake" "-P" "/home/ashwini/Documents/driving_python/image_processing/cmake/Tests/CMakeTests/FileTest.cmake")
+ADD_TEST(CMake.ConfigureFile "/home/ashwini/Documents/driving_python/image_processing/cmake/bin/cmake" "-P" "/home/ashwini/Documents/driving_python/image_processing/cmake/Tests/CMakeTests/ConfigureFileTest.cmake")
+ADD_TEST(CMake.SeparateArguments "/home/ashwini/Documents/driving_python/image_processing/cmake/bin/cmake" "-P" "/home/ashwini/Documents/driving_python/image_processing/cmake/Tests/CMakeTests/SeparateArgumentsTest.cmake")
+ADD_TEST(CMake.ImplicitLinkInfo "/home/ashwini/Documents/driving_python/image_processing/cmake/bin/cmake" "-P" "/home/ashwini/Documents/driving_python/image_processing/cmake/Tests/CMakeTests/ImplicitLinkInfoTest.cmake")
+ADD_TEST(CMake.ModuleNotices "/home/ashwini/Documents/driving_python/image_processing/cmake/bin/cmake" "-P" "/home/ashwini/Documents/driving_python/image_processing/cmake/Tests/CMakeTests/ModuleNoticesTest.cmake")
+ADD_TEST(CMake.GetProperty "/home/ashwini/Documents/driving_python/image_processing/cmake/bin/cmake" "-P" "/home/ashwini/Documents/driving_python/image_processing/cmake/Tests/CMakeTests/GetPropertyTest.cmake")
+ADD_TEST(CMake.If "/home/ashwini/Documents/driving_python/image_processing/cmake/bin/cmake" "-P" "/home/ashwini/Documents/driving_python/image_processing/cmake/Tests/CMakeTests/IfTest.cmake")
+ADD_TEST(CMake.String "/home/ashwini/Documents/driving_python/image_processing/cmake/bin/cmake" "-P" "/home/ashwini/Documents/driving_python/image_processing/cmake/Tests/CMakeTests/StringTest.cmake")
+ADD_TEST(CMake.Math "/home/ashwini/Documents/driving_python/image_processing/cmake/bin/cmake" "-P" "/home/ashwini/Documents/driving_python/image_processing/cmake/Tests/CMakeTests/MathTest.cmake")
+ADD_TEST(CMake.CMakeMinimumRequired "/home/ashwini/Documents/driving_python/image_processing/cmake/bin/cmake" "-P" "/home/ashwini/Documents/driving_python/image_processing/cmake/Tests/CMakeTests/CMakeMinimumRequiredTest.cmake")
+ADD_TEST(CMake.CompilerIdVendor "/home/ashwini/Documents/driving_python/image_processing/cmake/bin/cmake" "-P" "/home/ashwini/Documents/driving_python/image_processing/cmake/Tests/CMakeTests/CompilerIdVendorTest.cmake")
+ADD_TEST(CMake.ProcessorCount "/home/ashwini/Documents/driving_python/image_processing/cmake/bin/cmake" "-P" "/home/ashwini/Documents/driving_python/image_processing/cmake/Tests/CMakeTests/ProcessorCountTest.cmake")
+ADD_TEST(CMake.PushCheckState "/home/ashwini/Documents/driving_python/image_processing/cmake/bin/cmake" "-P" "/home/ashwini/Documents/driving_python/image_processing/cmake/Tests/CMakeTests/PushCheckStateTest.cmake")
+ADD_TEST(CMake.While "/home/ashwini/Documents/driving_python/image_processing/cmake/bin/cmake" "-P" "/home/ashwini/Documents/driving_python/image_processing/cmake/Tests/CMakeTests/WhileTest.cmake")
+ADD_TEST(CMake.FileDownload "/home/ashwini/Documents/driving_python/image_processing/cmake/bin/cmake" "-P" "/home/ashwini/Documents/driving_python/image_processing/cmake/Tests/CMakeTests/FileDownloadTest.cmake")
+SET_TESTS_PROPERTIES(CMake.FileDownload PROPERTIES  PASS_REGULAR_EXPRESSION "file already exists with expected MD5 sum")
+ADD_TEST(CMake.FileUpload "/home/ashwini/Documents/driving_python/image_processing/cmake/bin/cmake" "-P" "/home/ashwini/Documents/driving_python/image_processing/cmake/Tests/CMakeTests/FileUploadTest.cmake")
+ADD_TEST(CMake.ELF "/home/ashwini/Documents/driving_python/image_processing/cmake/bin/cmake" "-P" "/home/ashwini/Documents/driving_python/image_processing/cmake/Tests/CMakeTests/ELFTest.cmake")
+ADD_TEST(CMake.EndStuff "/home/ashwini/Documents/driving_python/image_processing/cmake/bin/cmake" "-Ddir:STRING=/home/ashwini/Documents/driving_python/image_processing/cmake/Tests/CMakeTests/EndStuffTest" "-P" "/home/ashwini/Documents/driving_python/image_processing/cmake/Tests/CMakeTests/EndStuffTest.cmake")
+ADD_TEST(CMake.GetPrerequisites "/home/ashwini/Documents/driving_python/image_processing/cmake/bin/cmake" "-DCTEST_CONFIGURATION_TYPE:STRING=${CTEST_CONFIGURATION_TYPE}" "-P" "/home/ashwini/Documents/driving_python/image_processing/cmake/Tests/CMakeTests/GetPrerequisitesTest.cmake")
+ADD_TEST(CMake.CheckSourceTree "/home/ashwini/Documents/driving_python/image_processing/cmake/bin/cmake" "-DCMake_BINARY_DIR:PATH=/home/ashwini/Documents/driving_python/image_processing/cmake" "-DCMake_SOURCE_DIR:PATH=/home/ashwini/Documents/driving_python/image_processing/cmake" "-DGIT_EXECUTABLE:STRING=/usr/bin/git" "-DHOME:STRING=/root" "-P" "/home/ashwini/Documents/driving_python/image_processing/cmake/Tests/CMakeTests/CheckSourceTreeTest.cmake")

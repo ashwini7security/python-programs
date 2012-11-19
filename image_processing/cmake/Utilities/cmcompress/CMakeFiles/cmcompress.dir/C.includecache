@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ashwini/Documents/driving_python/image_processing/cmake/Utilities/cmcompress/cmcompress.c
+cmcompress.h
+/home/ashwini/Documents/driving_python/image_processing/cmake/Utilities/cmcompress/cmcompress.h
+errno.h
+-
+string.h
+-
+
+/home/ashwini/Documents/driving_python/image_processing/cmake/Utilities/cmcompress/cmcompress.h
+stdio.h
+-
+
